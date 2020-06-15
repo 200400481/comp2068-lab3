@@ -30,14 +30,38 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.js" />
+    <Content Include="routes\father.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="routes\index.js" />
+    <Content Include="routes\jakob.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="routes\mother.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="routes\sister.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="routes\users.js" />
     <Content Include="package.json" />
     <Content Include="public\stylesheets\main.css" />
     <Content Include="README.md" />
+    <Content Include="views\father.pug">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="views\index.pug" />
+    <Content Include="views\jakob.pug">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="views\layout.pug" />
     <Content Include="views\error.pug" />
+    <Content Include="views\mother.pug">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="views\sister.pug">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="public\" />
